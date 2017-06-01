@@ -22,11 +22,11 @@ const ingredients = [
     }, {
         id: 6,
         name: 'Rocket',
-        img: 'img/ingredients/'
+        img: 'img/ingredients/rockets.png'
     }, {
         id: 7,
         name: 'Pickle',
-        img: 'img/ingredients/rockets.png'
+        img: 'img/ingredients/pickle.jpg'
     }, {
         id: 8,
         name: 'Bush peach curry sauce',
