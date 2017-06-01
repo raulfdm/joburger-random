@@ -1,0 +1,11 @@
+{
+  "name": "joburger-random",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:raulfdm/joburger-random.git",
+  "author": "Raul F. de Melo <melo.raulf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
