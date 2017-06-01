@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <h1 id="app-title" class="ui center aligned header">Random Jo'Burger</h1>
+        </header>
+        <section class="buttons">
+            <button id="generateBurger" class="ui button">Generate your Burger</button>
+        </section>
+
+        <section class="content">
+            <div class="buger-bread">
+                <section class="burger panel">
+                    <div class="ui segment">
+                        <div class="title">
+                            <h2 class="ui center aligned header">Hamburger</h2>
+                            <p class="subtitle burger-subtitle"></p>
+                        </div>
+                        <div class="img">
+                            <img class="ui image centered rounded burger-img" src="" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="bread panel">
+                    <div class="ui segment">
+                        <div class="title">
+                            <h2 class="ui center aligned header">Bread</h2>
+                            <p class="subtitle bread-subtitle"></p>
+                        </div>
+                        <div class="img">
+                            <img class="ui image centered rounded bread-img" src="" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="style panel">
+                <div class="ui segment">
+                    <div class="title">
+                        <h2 class="ui center aligned header">Style</h2>
+                        <p class="subtitle style-subtitle"></p>
+                    </div>
+                    <div class="ui tiny images">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/ingredients.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/bread.js"></script>
+    <script src="js/burger-style.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

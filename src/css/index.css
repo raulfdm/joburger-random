@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Raleway');
+html,
+body {
+  --primary-color: #c0392b;
+  --secondary-color: #fefefe;
+  background-color: var(--primary-color) !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+
+/*MAIN*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  height: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+/* TITLES */
+
+.header {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+#app-title {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  font-family: 'Barrio', cursive;
+}
+
+@media (min-width: 700px) {
+  #app-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* BUTTONS */
+
+.buttons {
+  align-self: center;
+  margin: 0rem 0 2rem;
+}
+
+.buttons #generateBurger {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px dashed var(--secondary-color);
+  margin: 0 auto;
+  display: block;
+  transition: all .3s;
+}
+
+.buttons #generateBurger:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px dashed var(--secondary-color);
+}
+
+/* CONTENT */
+/* Panels */
+
+.panel {
+  margin: 1rem;
+}
+
+.panel .segment {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.panel .title .header {
+  font-size: 1.2rem;
+}
+
+.panel .subtitle {
+  text-align: center;
+}
+
+.panel .img img {
+  max-width: 100%;
+  max-height: 100px;
+}
+/*Burger and Bread*/
+
+.buger-bread {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.buger-bread section {
+  width: 48%;
+}
+
+
+/* Ingredients */
+
+.ingredient-image {
+  margin-bottom: 0 !important;
+}
+
+.ingredient-name {
+  text-align: center;
+}
