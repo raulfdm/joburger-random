@@ -7,5 +7,18 @@
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "deploy": "yarn gulp build && yarn gulp ghpages"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-html-minify": "^0.0.14",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2"
   }
 }
